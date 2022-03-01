@@ -1,0 +1,1 @@
+import java.util.*;class Solution{public static void main(String args[]){int n=new Scanner(System.in).nextInt(),z=0,f=2;while(f<=n){while(n%f<1){z+=f;n/=f;}f++;while(p(f)<1)f++;}System.out.print(z);}static int p(int a){int p=1,f=2;while(p>0&&f*f<=a)p=a%f++;return p;}}
